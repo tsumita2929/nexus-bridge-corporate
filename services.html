@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サービス | NEXUS BRIDGE</title>
+  <meta name="description" content="NEXUS BRIDGEが提供するストラテジー、テクノロジー、AI、セキュリティの各サービスをご紹介します。">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="NEXUS BRIDGE ホーム">
+        <span class="header__logo-chevron">
+          <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M8 8L20 16L8 24" stroke="#C8A882" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 8L28 16L16 24" stroke="#C8A882" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+          </svg>
+        </span>
+        NEXUS BRIDGE
+      </a>
+      <nav class="header__nav" id="mainNav" aria-label="メインナビゲーション">
+        <a href="index.html" class="header__nav-link">ホーム</a>
+        <a href="services.html" class="header__nav-link header__nav-link--active">サービス</a>
+        <a href="about.html" class="header__nav-link">会社情報</a>
+        <a href="contact.html" class="header__contact-btn">お問い合わせ</a>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+      <div class="page-hero__bg">
+        <img src="images/services-hero.png" alt="" loading="eager">
+      </div>
+      <div class="page-hero__overlay"></div>
+      <div class="container">
+        <div class="page-hero__content">
+          <p class="page-hero__eyebrow">Our Capabilities</p>
+          <h1 class="page-hero__title">サービス</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES DETAIL ===== -->
+    <section class="services-detail">
+      <div class="container">
+        <div class="services-detail__header reveal">
+          <p class="eyebrow">Services</p>
+          <h2 class="section-title section-title--large">あらゆる業界の変革を<br>エンドツーエンドで支援</h2>
+          <p class="section-lead">
+            戦略策定からテクノロジー実装、運用までを一貫して担い、企業の競争力を根本から強化します。20年にわたる実績と18,500名以上の専門人材が、確かな成果をお届けします。
+          </p>
+          <div class="accent-line" style="margin-top: 20px;"></div>
+        </div>
+
+        <!-- Service 1 -->
+        <div class="service-detail-card reveal">
+          <div class="service-detail-card__content">
+            <div class="service-detail-card__number">01</div>
+            <h3 class="service-detail-card__title">ストラテジー &amp; コンサルティング</h3>
+            <p class="service-detail-card__text">
+              業界特化の深い知見と、グローバルで蓄積されたベストプラクティスを活用。経営戦略・事業戦略とテクノロジー戦略を統合し、デジタル時代に勝ち残るためのロードマップを策定します。M&A戦略、新規事業開発、オペレーショナル・エクセレンスの実現まで包括的に支援。
+            </p>
+            <div class="service-detail-card__tags">
+              <span class="service-detail-card__tag">経営戦略</span>
+              <span class="service-detail-card__tag">DX戦略</span>
+              <span class="service-detail-card__tag">M&amp;A</span>
+              <span class="service-detail-card__tag">業務改革</span>
+              <span class="service-detail-card__tag">PMI</span>
+            </div>
+            <a href="contact.html" class="service-card__link" style="margin-top: 24px;">
+              お問い合わせ
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+          <div class="service-detail-card__visual">
+            <img src="images/hero.png" alt="ストラテジーサービスのイメージ" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-detail-card reveal--left">
+          <div class="service-detail-card__content">
+            <div class="service-detail-card__number">02</div>
+            <h3 class="service-detail-card__title">テクノロジー</h3>
+            <p class="service-detail-card__text">
+              クラウドネイティブアーキテクチャの設計からマイクロサービス基盤の構築、レガシーモダナイゼーションまで。AWS、Azure、GCPのマルチクラウド環境における最適なインフラストラクチャを実現し、ビジネスの俊敏性とスケーラビリティを両立します。
+            </p>
+            <div class="service-detail-card__tags">
+              <span class="service-detail-card__tag">クラウド移行</span>
+              <span class="service-detail-card__tag">マイクロサービス</span>
+              <span class="service-detail-card__tag">DevOps</span>
+              <span class="service-detail-card__tag">レガシー刷新</span>
+              <span class="service-detail-card__tag">SRE</span>
+            </div>
+            <a href="contact.html" class="service-card__link" style="margin-top: 24px;">
+              お問い合わせ
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+          <div class="service-detail-card__visual">
+            <img src="images/services-hero.png" alt="テクノロジーサービスのイメージ" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-detail-card reveal--right">
+          <div class="service-detail-card__content">
+            <div class="service-detail-card__number">03</div>
+            <h3 class="service-detail-card__title">AI &amp; データアナリティクス</h3>
+            <p class="service-detail-card__text">
+              生成AIの業務適用、機械学習モデルの開発・運用、データレイク/データメッシュの構築。データを経営資産として最大限に活用するための戦略立案から基盤構築、活用推進までを一気通貫で支援。意思決定の精度とスピードを飛躍的に向上させます。
+            </p>
+            <div class="service-detail-card__tags">
+              <span class="service-detail-card__tag">生成AI</span>
+              <span class="service-detail-card__tag">MLOps</span>
+              <span class="service-detail-card__tag">データ基盤</span>
+              <span class="service-detail-card__tag">予測分析</span>
+              <span class="service-detail-card__tag">NLP</span>
+            </div>
+            <a href="contact.html" class="service-card__link" style="margin-top: 24px;">
+              お問い合わせ
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+          <div class="service-detail-card__visual">
+            <img src="images/about-hero.png" alt="AIサービスのイメージ" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-detail-card reveal--scale">
+          <div class="service-detail-card__content">
+            <div class="service-detail-card__number">04</div>
+            <h3 class="service-detail-card__title">サイバーセキュリティ</h3>
+            <p class="service-detail-card__text">
+              ゼロトラストアーキテクチャの設計・導入、脅威インテリジェンス、インシデントレスポンス、セキュリティオペレーションセンター（SOC）の構築・運用。ビジネスの成長を阻害せず、かつ堅牢なセキュリティ態勢を実現するための実効的なソリューションを提供します。
+            </p>
+            <div class="service-detail-card__tags">
+              <span class="service-detail-card__tag">ゼロトラスト</span>
+              <span class="service-detail-card__tag">SOC構築</span>
+              <span class="service-detail-card__tag">脅威分析</span>
+              <span class="service-detail-card__tag">CSIRT</span>
+              <span class="service-detail-card__tag">GRC</span>
+            </div>
+            <a href="contact.html" class="service-card__link" style="margin-top: 24px;">
+              お問い合わせ
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+          <div class="service-detail-card__visual">
+            <img src="images/hero.png" alt="セキュリティサービスのイメージ" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-banner__inner reveal">
+          <h2 class="cta-banner__title">貴社の課題に最適なソリューションを。</h2>
+          <p class="cta-banner__text">各領域の専門コンサルタントが、貴社固有の課題を深く理解し最適な解決策をご提案します。</p>
+          <a href="contact.html" class="cta-banner__btn">
+            お問い合わせ
+            <svg class="cta-banner__btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__main">
+          <div class="footer__brand">
+            <div class="footer__brand-name">NEXUS BRIDGE</div>
+            <p class="footer__brand-desc">テクノロジーと人の力で、社会を変革する。グローバルの知見と日本市場への深い理解を融合し、企業の持続的な成長に貢献します。</p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="X (Twitter)">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4l11.733 16H20L8.267 4H4z"/>
+                  <path d="M4 20l6.768-6.768M20 4l-6.768 6.768"/>
+                </svg>
+                <span>X</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Services</h3>
+            <ul class="footer__nav-list">
+              <li><a href="services.html" class="footer__nav-link">ストラテジー &amp; コンサルティング</a></li>
+              <li><a href="services.html" class="footer__nav-link">テクノロジー</a></li>
+              <li><a href="services.html" class="footer__nav-link">AI &amp; データアナリティクス</a></li>
+              <li><a href="services.html" class="footer__nav-link">サイバーセキュリティ</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Company</h3>
+            <ul class="footer__nav-list">
+              <li><a href="about.html" class="footer__nav-link">会社概要</a></li>
+              <li><a href="about.html#leadership" class="footer__nav-link">経営陣</a></li>
+              <li><a href="about.html#offices" class="footer__nav-link">拠点一覧</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Contact</h3>
+            <ul class="footer__nav-list">
+              <li><a href="contact.html" class="footer__nav-link">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2026 NEXUS BRIDGE, Inc. All rights reserved.</p>
+          <button class="footer__back-to-top" id="backToTop" aria-label="ページの先頭に戻る">
+            Back to Top
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

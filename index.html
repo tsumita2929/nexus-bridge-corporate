@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS BRIDGE | テクノロジーと人の力で、社会を変革する</title>
+  <meta name="description" content="ネクサスブリッジは、デジタルトランスフォーメーション、クラウド、AI、サイバーセキュリティの領域で企業の変革を支援するコンサルティングファームです。">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="NEXUS BRIDGE ホーム">
+        <span class="header__logo-chevron">
+          <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M8 8L20 16L8 24" stroke="#C8A882" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 8L28 16L16 24" stroke="#C8A882" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+          </svg>
+        </span>
+        NEXUS BRIDGE
+      </a>
+      <nav class="header__nav" id="mainNav" aria-label="メインナビゲーション">
+        <a href="index.html" class="header__nav-link header__nav-link--active">ホーム</a>
+        <a href="services.html" class="header__nav-link">サービス</a>
+        <a href="about.html" class="header__nav-link">会社情報</a>
+        <a href="contact.html" class="header__contact-btn">お問い合わせ</a>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero__bg">
+        <img src="images/hero.png" alt="" loading="eager">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Digital Transformation Partner</p>
+        <h1 class="hero__title">
+          テクノロジーと人の力で、<br>
+          <span class="hero__title-accent">社会を変革する。</span>
+        </h1>
+        <p class="hero__subtitle">
+          私たちは、戦略・テクノロジー・オペレーションの融合により、<br>
+          企業の持続的な成長と社会課題の解決に貢献します。
+        </p>
+        <a href="services.html" class="hero__cta">
+          サービスを見る
+          <svg class="hero__cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats" aria-label="主要指標">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stats__item reveal">
+            <div class="stats__number">18,500<span class="stats__number-accent">+</span></div>
+            <div class="stats__label">従業員数</div>
+          </div>
+          <div class="stats__item reveal reveal--delay-1">
+            <div class="stats__number">12</div>
+            <div class="stats__label">国内拠点</div>
+          </div>
+          <div class="stats__item reveal reveal--delay-2">
+            <div class="stats__number">2,800<span class="stats__number-accent">+</span></div>
+            <div class="stats__label">年間プロジェクト数</div>
+          </div>
+          <div class="stats__item reveal reveal--delay-3">
+            <div class="stats__number">97<span class="stats__number-accent">%</span></div>
+            <div class="stats__label">クライアント継続率</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__header reveal">
+          <p class="eyebrow">Our Services</p>
+          <h2 class="section-title">変革を加速する<br>4つのケイパビリティ</h2>
+          <div class="accent-line" style="margin-top: 16px;"></div>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card reveal--card reveal--delay-1">
+            <div class="service-card__number">01</div>
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">ストラテジー &amp; コンサルティング</h3>
+            <p class="service-card__text">経営戦略とテクノロジー戦略を統合し、デジタル時代の競争優位性を構築します。業界知見に基づくロードマップ策定から実行支援まで。</p>
+            <a href="services.html" class="service-card__link">
+              詳しく見る
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card reveal--left reveal--delay-2">
+            <div class="service-card__number">02</div>
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                <line x1="4" y1="22" x2="4" y2="15"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">テクノロジー</h3>
+            <p class="service-card__text">クラウドネイティブアーキテクチャ、マイクロサービス、モダンインフラの設計・構築。レガシーシステムの刷新から次世代プラットフォームの構築まで。</p>
+            <a href="services.html" class="service-card__link">
+              詳しく見る
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card reveal--card reveal--delay-3">
+            <div class="service-card__number">03</div>
+            <div class="service-card__icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">AI &amp; データアナリティクス</h3>
+            <p class="service-card__text">生成AI、機械学習、データ基盤の構築と活用。データドリブン経営を実現し、意思決定の精度とスピードを飛躍的に向上させます。</p>
+            <a href="services.html" class="service-card__link">
+              詳しく見る
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about-section">
+      <div class="container">
+        <div class="about-section__inner">
+          <div class="about-section__left reveal--left">
+            <p class="eyebrow eyebrow--light">About Us</p>
+            <h2 class="about-section__title">2006年の創業以来、<br>日本企業の変革に伴走してきました。</h2>
+            <p class="about-section__text">
+              金融、製造、通信、流通の4業界で累計1,200社以上の変革を支援。<br>
+              失敗プロジェクトから学んだ「現場に根づくDX」の方法論が、私たちの最大の強みです。
+            </p>
+            <a href="about.html" class="about-section__link">
+              会社情報を見る
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+          <div class="about-section__image reveal--image">
+            <img src="images/about-hero.png" alt="NEXUS BRIDGEのオフィス風景" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWS ===== -->
+    <section class="news" id="news">
+      <div class="container">
+        <div class="news__header">
+          <div class="news__header-left reveal">
+            <p class="eyebrow">News &amp; Insights</p>
+            <h2 class="section-title">最新情報</h2>
+          </div>
+        </div>
+        <div class="news__list">
+          <div class="news-item reveal">
+            <time class="news-item__date" datetime="2026-03-10">2026.03.10</time>
+            <span class="news-item__tag">プレスリリース</span>
+            <span class="news-item__title">生成AIを活用した製造業向けサプライチェーン最適化ソリューションの提供を開始</span>
+            <svg class="news-item__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+          <div class="news-item reveal reveal--delay-1">
+            <time class="news-item__date" datetime="2026-02-28">2026.02.28</time>
+            <span class="news-item__tag">受賞</span>
+            <span class="news-item__title">「DX推進パートナー企業ランキング2026」で総合1位を獲得</span>
+            <svg class="news-item__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+          <div class="news-item reveal reveal--delay-2">
+            <time class="news-item__date" datetime="2026-02-15">2026.02.15</time>
+            <span class="news-item__tag">イベント</span>
+            <span class="news-item__title">NEXUS BRIDGE Technology Summit 2026 — 参加登録受付中</span>
+            <svg class="news-item__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+          <div class="news-item reveal reveal--delay-3">
+            <time class="news-item__date" datetime="2026-01-22">2026.01.22</time>
+            <span class="news-item__tag">レポート</span>
+            <span class="news-item__title">日本企業のAI活用実態調査 2026 — 経営層の78%が「事業戦略にAIを組み込み済み」</span>
+            <svg class="news-item__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-banner__inner reveal--scale">
+          <h2 class="cta-banner__title">貴社の変革を、共に。</h2>
+          <p class="cta-banner__text">まずはお気軽にご相談ください。業界専門のコンサルタントが対応いたします。</p>
+          <a href="contact.html" class="cta-banner__btn">
+            お問い合わせ
+            <svg class="cta-banner__btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__main">
+          <div class="footer__brand">
+            <div class="footer__brand-name">NEXUS BRIDGE</div>
+            <p class="footer__brand-desc">テクノロジーと人の力で、社会を変革する。グローバルの知見と日本市場への深い理解を融合し、企業の持続的な成長に貢献します。</p>
+            <div class="footer__social">
+              <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" class="footer__social-link" aria-label="X (Twitter)">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4l11.733 16H20L8.267 4H4z"/>
+                  <path d="M4 20l6.768-6.768M20 4l-6.768 6.768"/>
+                </svg>
+                <span>X</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Services</h3>
+            <ul class="footer__nav-list">
+              <li><a href="services.html" class="footer__nav-link">ストラテジー &amp; コンサルティング</a></li>
+              <li><a href="services.html" class="footer__nav-link">テクノロジー</a></li>
+              <li><a href="services.html" class="footer__nav-link">AI &amp; データアナリティクス</a></li>
+              <li><a href="services.html" class="footer__nav-link">サイバーセキュリティ</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Company</h3>
+            <ul class="footer__nav-list">
+              <li><a href="about.html" class="footer__nav-link">会社概要</a></li>
+              <li><a href="about.html#leadership" class="footer__nav-link">経営陣</a></li>
+              <li><a href="about.html#offices" class="footer__nav-link">拠点一覧</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-group">
+            <h3 class="footer__nav-title">Contact</h3>
+            <ul class="footer__nav-list">
+              <li><a href="contact.html" class="footer__nav-link">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2026 NEXUS BRIDGE, Inc. All rights reserved.</p>
+          <button class="footer__back-to-top" id="backToTop" aria-label="ページの先頭に戻る">
+            Back to Top
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 19V5M5 12l7-7 7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
