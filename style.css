@@ -1867,13 +1867,22 @@ ul, ol {
   }
 
   .header__nav--mobile-open .header__nav-link {
-    font-size: 1rem;
-    color: var(--text-on-dark-secondary);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-on-dark);
+    letter-spacing: 0.06em;
+    padding: 12px 0;
+  }
+
+  .header__nav--mobile-open .header__nav-link--active {
+    color: var(--color-accent);
   }
 
   .header__nav--mobile-open .header__contact-btn {
     width: fit-content;
-    margin-top: 20px;
+    margin-top: 24px;
+    font-size: 0.875rem;
+    padding: 14px 32px;
   }
 
   .hero {
