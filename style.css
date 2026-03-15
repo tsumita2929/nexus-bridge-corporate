@@ -1857,7 +1857,7 @@ ul, ol {
     top: 76px;
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100dvh - 76px);
     background: #08080D;
     padding: 56px var(--gutter);
     gap: 8px;
