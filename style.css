@@ -1858,20 +1858,21 @@ ul, ol {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(8, 8, 13, 0.98);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    padding: 48px var(--gutter);
-    gap: 28px;
+    background: #08080D;
+    padding: 56px var(--gutter);
+    gap: 8px;
     z-index: 999;
+    overflow-y: auto;
   }
 
   .header__nav--mobile-open .header__nav-link {
-    font-size: 1.25rem;
+    font-family: var(--font-display-jp);
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--text-on-dark);
-    letter-spacing: 0.06em;
-    padding: 12px 0;
+    letter-spacing: 0.08em;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(232, 228, 223, 0.06);
   }
 
   .header__nav--mobile-open .header__nav-link--active {
@@ -1880,9 +1881,9 @@ ul, ol {
 
   .header__nav--mobile-open .header__contact-btn {
     width: fit-content;
-    margin-top: 24px;
-    font-size: 0.875rem;
-    padding: 14px 32px;
+    margin-top: 36px;
+    font-size: 0.9375rem;
+    padding: 16px 40px;
   }
 
   .hero {
